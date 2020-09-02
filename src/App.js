@@ -22,13 +22,13 @@ function App() {
   const[responseData, setResponseData] = useState([]);
   
   useEffect(() => {
-    fetch("http://api.openweathermap.org/data/2.5/weather?q=Leeds&appid=9e7197e0387478c28d10e20e205505dd")
+    fetch("https://api.openweathermap.org/data/2.5/weather?q=Leeds&appid=9e7197e0387478c28d10e20e205505dd")
     .then(response => response.json())
   .then(data => setResponseData(data));
   },[]);
 
   function viewData(City) {
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${City}&appid=9e7197e0387478c28d10e20e205505dd`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${City}&appid=9e7197e0387478c28d10e20e205505dd`)
     .then(response => response.json())
   .then(data => setResponseData(data));
   }
