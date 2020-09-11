@@ -9,7 +9,7 @@ import image from './peterkay.jpg';
 
 const styles = {
   width: '100%',
-  height: '1000px',
+  height: '800px',
   color: 'white',
   margin: '0',
   backgroundImage: 'url('+image+')',
