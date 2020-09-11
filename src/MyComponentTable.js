@@ -5,16 +5,16 @@ import {Dropdown} from 'react-bootstrap';
 import image from './weatherpics.jpg';
 
 const table = {
-  margin: '0',
+  marginLeft: '20%',
+  marginRight:'20%'
 };
 
 const weather = {
   width: '100%',
-  height: '800px',
-  
+  height: '800px',  
   margin: '0',
   backgroundImage: 'url('+image+')',
-  backgroundSize: 'contain'
+  backgroundSize: 'cover'
     
   };
 
