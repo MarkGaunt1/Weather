@@ -9,7 +9,7 @@ import image from './peterkay.jpg';
 
 const styles = {
   width: '100%',
-  height: '500px',
+  height: '1000px',
   color: 'white',
   margin: '0',
   backgroundImage: 'url('+image+')',
@@ -63,9 +63,26 @@ function App() {
 
       <div style = {styles}>
         <br />
-        <br />
         <h1>Is it spitting?</h1>
-        <br />        
+        <br /> 
+        <br />
+        <br />  
+        <br />
+        <br />   
+        <br />
+        <br />
+        <br />
+        <br />  
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
         <h3>Click below to find out if everyone needs to go in where you are today!</h3>
         <br />
         <Dropdown>
